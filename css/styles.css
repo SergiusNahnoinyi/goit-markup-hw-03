@@ -40,6 +40,10 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+/* Убирает зазоры между картинкой и контентом */
+img {
+  display: block;
+}
 /* Стилизация Header */
 .company-name {
   font-family: Raleway;
