@@ -44,6 +44,10 @@ ul {
 img {
   display: block;
 }
+/* Отображает все границы элементов */
+* {
+  outline: 1px solid tomato;
+}
 /* Стилизация Header */
 .company-name {
   font-family: Raleway;
