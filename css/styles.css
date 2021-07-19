@@ -30,6 +30,16 @@ body {
   background-color: var(--primary-background-color);
   letter-spacing: 0.03em;
 }
+/* Глобальный сброс стилей по селекторам тегов */
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /* Стилизация Header */
 .company-name {
   font-family: Raleway;
