@@ -160,11 +160,26 @@ img {
   background-color: var(--accent-color);
 }
 /* Стилизация секции "Особенности" */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-list {
+  display: flex;
   list-style: none;
+}
+/* Задает отступ и очищает крайнюю геометрию */
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-list-item {
+  width: 270px;
 }
 
 .features-title {
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
