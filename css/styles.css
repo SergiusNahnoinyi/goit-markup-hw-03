@@ -245,11 +245,25 @@ img {
   color: var(--secondary-text-color);
 }
 /* Стилизация Footer */
-.footer {
+.section-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-background-color);
 }
 
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .footer-company-name {
+  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -263,6 +277,7 @@ img {
   color: white;
 }
 .company-link {
+  display: block; /* Убирает зазор между ссылками */
   font-style: normal;
   line-height: 1.7;
   letter-spacing: 0.02em;
