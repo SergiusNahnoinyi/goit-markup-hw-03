@@ -128,11 +128,14 @@ img {
 }
 /* Cтилизация блока-героя */
 .hero {
-  background-color: var(--secondary-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
+  background-color: var(--secondary-background-color);
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
