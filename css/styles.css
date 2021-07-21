@@ -47,6 +47,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+ul {
+  list-style: none;
+}
 /* Отображает все границы элементов 
 * {
   outline: 1px solid tomato; 
@@ -89,7 +93,6 @@ img {
 
 .nav-list {
   display: flex;
-  list-style: none;
 }
 /* Задает отступ и очищает крайнюю геометрию */
 .nav-list-item:not(:last-child) {
@@ -115,7 +118,6 @@ img {
 .contacts-list {
   display: flex;
   margin-left: auto;
-  list-style: none;
 }
 /* Задает отступ через соседа */
 .contacts-list-item + li {
@@ -178,7 +180,6 @@ img {
 
 .features-list {
   display: flex;
-  list-style: none;
 }
 /* Задает отступ и очищает крайнюю геометрию */
 .features-list-item:not(:last-child) {
@@ -212,7 +213,6 @@ img {
 
 .services-list {
   display: flex;
-  list-style: none;
 }
 .services-list-item:not(:last-child) {
   margin-right: 30px;
@@ -230,7 +230,6 @@ img {
 
 .team-list {
   display: flex;
-  list-style: none;
 }
 .team-list-item:not(:last-child) {
   margin-right: 30px;
@@ -321,7 +320,6 @@ img {
   display: flex;
   width: 611px;
   justify-content: space-between;
-  list-style: none;
 }
 
 .portfolio-list {
@@ -330,7 +328,6 @@ img {
   justify-content: space-between;
   margin-left: calc(-1 * var(--portfolio-card-gap));
   margin-top: calc(-1 * var(--portfolio-card-gap)); /* Так запишется -30рх */
-  list-style: none;
 }
 
 .portfolio-list-item {
