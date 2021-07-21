@@ -178,6 +178,10 @@ ul {
   padding-bottom: 94px;
 }
 
+.section-services {
+  padding-top: 0px;
+}
+
 .features-list {
   display: flex;
 }
